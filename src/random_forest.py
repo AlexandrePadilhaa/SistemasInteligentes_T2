@@ -2,7 +2,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import classification_report, confusion_matrix, accuracy_score
 from utils import load_and_preprocess_data, min_max, split_cross_validation, prepare_train_test_data, separate_features_and_labels
 
-
+DATA_FILE = "data/treino_sinais_vitais_com_label.txt"
 N_ESTIMATORS = 100        # Número de árvores
 MAX_DEPTH = None           
 MIN_SAMPLES_SPLIT = 2      # Número mínimo de amostras para dividir um nó
@@ -35,7 +35,7 @@ def evaluate_model(model, x_test, y_test):
 
 if __name__ == "__main__":
     # Carregar e preprocessar os dados
-    filepath = "data/treino_sinais_vitais_com_label.txt"
+    filepath = DATA_FILE
     df = load_and_preprocess_data(filepath)
     df = min_max(df)
 
