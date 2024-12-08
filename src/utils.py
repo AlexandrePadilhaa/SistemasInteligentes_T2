@@ -1,6 +1,28 @@
+import json
+import os
 import pandas as pd
 import numpy as np
 import random
+
+def save_summary(metrics_list, filepath=""):
+
+    os.makedirs(os.path.dirname(filepath), exist_ok=True)
+
+    summary = {
+        "metrics_per_fold": metrics_list
+    }
+
+    with open(filepath, 'w') as f:
+        json.dump(summary, f, indent=6)
+
+    print(f"Summary file saved at: {filepath}")
+
+def make_serializable(obj):
+        if isinstance(obj, np.ndarray):  # Converter arrays NumPy em listas
+            return obj.tolist()
+        if isinstance(obj, np.generic):  # Converter valores NumPy em tipos nativos
+            return obj.item()
+        return obj
 
 # NORMALIZAÇÂO
 def min_max(df: pd.DataFrame):

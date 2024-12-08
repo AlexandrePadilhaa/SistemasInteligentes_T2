@@ -7,7 +7,7 @@ from sklearn.metrics import (confusion_matrix, classification_report,
                              accuracy_score, ConfusionMatrixDisplay)
 from sklearn.utils.multiclass import unique_labels
 import matplotlib.pyplot as plt
-from utils import load_and_preprocess_data, min_max, split_cross_validation, prepare_train_test_data, separate_features_and_labels
+from utils import load_and_preprocess_data, min_max, split_cross_validation, prepare_train_test_data, separate_features_and_labels, save_summary
 
 
 DATA_FILE = "data/treino_sinais_vitais_com_label.txt"
@@ -43,18 +43,6 @@ import os
 import json
 import numpy as np
 
-def save_summary(metrics_list, filepath=SUMMARY_FILE):
-
-    os.makedirs(os.path.dirname(filepath), exist_ok=True)
-
-    summary = {
-        "metrics_per_fold": metrics_list
-    }
-
-    with open(filepath, 'w') as f:
-        json.dump(summary, f, indent=4)
-
-    print(f"Summary file saved at: {filepath}")
 
 
 
