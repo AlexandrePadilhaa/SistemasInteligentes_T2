@@ -128,7 +128,7 @@ def cross_validate_random_forest(df, folds=FOLDS):
         rf_model = train_random_forest(x_train, y_train)
 
         metrics = evaluate_model(i + 1, rf_model, x_test, y_test)
-        metrics_list.append(summarize_forest_metrics(rf_model))
+        metrics_list.append({"average_tree_stats": summarize_forest_metrics(rf_model)})
         metrics_list.append(metrics)
 
     save_summary(metrics_list, SUMMARY_FILE)

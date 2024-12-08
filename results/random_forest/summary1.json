@@ -15,17 +15,19 @@
                   }
             },
             {
-                  "average_tree_depth": 13.8,
-                  "average_tree_impurity": 0.1834555542811739,
-                  "average_tree_size": 331.2,
-                  "average_splits_per_level": 24.272371256194788,
-                  "average_information_gain_per_split": 0.061151851427057966,
-                  "feature_importance": [
-                        0.35119147361016323,
-                        0.32052205455124594,
-                        0.32828647183859083
-                  ],
-                  "oob_error": 0.16083333333333338
+                  "average_tree_stats": {
+                        "average_tree_depth": 13.8,
+                        "average_tree_impurity": 0.1834555542811739,
+                        "average_tree_size": 331.2,
+                        "average_splits_per_level": 24.272371256194788,
+                        "average_information_gain_per_split": 0.061151851427057966,
+                        "feature_importance": [
+                              0.35119147361016323,
+                              0.32052205455124594,
+                              0.32828647183859083
+                        ],
+                        "oob_error": 0.16083333333333338
+                  }
             },
             {
                   "fold": 1,
@@ -96,17 +98,19 @@
                   }
             },
             {
-                  "average_tree_depth": 14.1,
-                  "average_tree_impurity": 0.18116154064857884,
-                  "average_tree_size": 324.0,
-                  "average_splits_per_level": 23.261822515719572,
-                  "average_information_gain_per_split": 0.06038718021619294,
-                  "feature_importance": [
-                        0.33295362752816116,
-                        0.3276068541843328,
-                        0.33943951828750607
-                  ],
-                  "oob_error": 0.16083333333333338
+                  "average_tree_stats": {
+                        "average_tree_depth": 14.1,
+                        "average_tree_impurity": 0.18116154064857884,
+                        "average_tree_size": 324.0,
+                        "average_splits_per_level": 23.261822515719572,
+                        "average_information_gain_per_split": 0.06038718021619294,
+                        "feature_importance": [
+                              0.33295362752816116,
+                              0.3276068541843328,
+                              0.33943951828750607
+                        ],
+                        "oob_error": 0.16083333333333338
+                  }
             },
             {
                   "fold": 2,
@@ -177,17 +181,19 @@
                   }
             },
             {
-                  "average_tree_depth": 15.0,
-                  "average_tree_impurity": 0.18343275904478334,
-                  "average_tree_size": 325.6,
-                  "average_splits_per_level": 21.85586477505982,
-                  "average_information_gain_per_split": 0.061144253014927784,
-                  "feature_importance": [
-                        0.3416267656999304,
-                        0.3295855053166013,
-                        0.3287877289834683
-                  ],
-                  "oob_error": 0.15666666666666662
+                  "average_tree_stats": {
+                        "average_tree_depth": 15.0,
+                        "average_tree_impurity": 0.18343275904478334,
+                        "average_tree_size": 325.6,
+                        "average_splits_per_level": 21.85586477505982,
+                        "average_information_gain_per_split": 0.061144253014927784,
+                        "feature_importance": [
+                              0.3416267656999304,
+                              0.3295855053166013,
+                              0.3287877289834683
+                        ],
+                        "oob_error": 0.15666666666666662
+                  }
             },
             {
                   "fold": 3,
@@ -258,17 +264,19 @@
                   }
             },
             {
-                  "average_tree_depth": 14.0,
-                  "average_tree_impurity": 0.18238249738013496,
-                  "average_tree_size": 329.0,
-                  "average_splits_per_level": 23.56981684981685,
-                  "average_information_gain_per_split": 0.060794165793378305,
-                  "feature_importance": [
-                        0.33073667563439135,
-                        0.3420928098139784,
-                        0.3271705145516302
-                  ],
-                  "oob_error": 0.16749999999999998
+                  "average_tree_stats": {
+                        "average_tree_depth": 14.0,
+                        "average_tree_impurity": 0.18238249738013496,
+                        "average_tree_size": 329.0,
+                        "average_splits_per_level": 23.56981684981685,
+                        "average_information_gain_per_split": 0.060794165793378305,
+                        "feature_importance": [
+                              0.33073667563439135,
+                              0.3420928098139784,
+                              0.3271705145516302
+                        ],
+                        "oob_error": 0.16749999999999998
+                  }
             },
             {
                   "fold": 4,
@@ -339,17 +347,19 @@
                   }
             },
             {
-                  "average_tree_depth": 14.9,
-                  "average_tree_impurity": 0.18026308779675065,
-                  "average_tree_size": 325.2,
-                  "average_splits_per_level": 21.930501238957124,
-                  "average_information_gain_per_split": 0.060087695932250204,
-                  "feature_importance": [
-                        0.32253420696947227,
-                        0.33585608290985136,
-                        0.3416097101206765
-                  ],
-                  "oob_error": 0.16333333333333333
+                  "average_tree_stats": {
+                        "average_tree_depth": 14.9,
+                        "average_tree_impurity": 0.18026308779675065,
+                        "average_tree_size": 325.2,
+                        "average_splits_per_level": 21.930501238957124,
+                        "average_information_gain_per_split": 0.060087695932250204,
+                        "feature_importance": [
+                              0.32253420696947227,
+                              0.33585608290985136,
+                              0.3416097101206765
+                        ],
+                        "oob_error": 0.16333333333333333
+                  }
             },
             {
                   "fold": 5,
