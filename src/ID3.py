@@ -15,6 +15,7 @@ MAX_DEPTH = 3           # Profundidade máxima (None = sem limite)
 MIN_SAMPLES_SPLIT = 10      # Número mínimo de amostras para dividir um nó
 RANDOM_STATE = 42         
 FOLDS = 5
+TIPO = 'classificacao'
 
 def train_id3_model(x_train, y_train):
     #Arvore de decisão com critério de entropia = ID3
@@ -95,8 +96,8 @@ def cross_validate_id3(df, folds=5):
 
         # Preparar dados de treino e teste
         train_fold = df.drop(test_fold.index)
-        x_train, y_train = separate_features_and_labels(train_fold)
-        x_test, y_test = separate_features_and_labels(test_fold)
+        x_train, y_train = separate_features_and_labels(train_fold,TIPO)
+        x_test, y_test = separate_features_and_labels(test_fold,TIPO)
 
         # Treinar modelo ID3
         model = train_id3_model(x_train, y_train)
@@ -119,7 +120,7 @@ def cross_validate_id3(df, folds=5):
 def main():
     filepath = DATA_FILE
 
-    df = load_and_preprocess_data(filepath)
+    df = load_and_preprocess_data(filepath,TIPO)
 
     df = min_max(df)
     

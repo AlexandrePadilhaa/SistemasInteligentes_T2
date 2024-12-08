@@ -9,6 +9,7 @@ MIN_SAMPLES_SPLIT = 2      # Número mínimo de amostras para dividir um nó
 RANDOM_STATE = 42          # Semente para reprodutibilidade
 MAX_FEATURES = "sqrt"      # Atributos considerados por divisão ("sqrt" = raiz quadrada do total)
 FOLDS = 5
+TIPO = 'classificacao'
 
 def train_random_forest(x_train, y_train):
     """
@@ -36,7 +37,7 @@ def evaluate_model(model, x_test, y_test):
 if __name__ == "__main__":
     # Carregar e preprocessar os dados
     filepath = DATA_FILE
-    df = load_and_preprocess_data(filepath)
+    df = load_and_preprocess_data(filepath,TIPO)
     df = min_max(df)
 
     # Validação cruzada
@@ -46,8 +47,8 @@ if __name__ == "__main__":
         print(f"\n--- Fold {i+1} ---")
         # Preparar dados de treino e teste
         df_train, df_test = prepare_train_test_data(df, fold)
-        x_train, y_train = separate_features_and_labels(df_train)
-        x_test, y_test = separate_features_and_labels(df_test)
+        x_train, y_train = separate_features_and_labels(df_train,TIPO)
+        x_test, y_test = separate_features_and_labels(df_test,TIPO)
 
         # Treinar o modelo Random Forest
         rf_model = train_random_forest(x_train, y_train)

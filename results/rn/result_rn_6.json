@@ -1,0 +1,2043 @@
+{
+    "neuronios_camada": 3,
+    "neuronios_saida": 2,
+    "epocas": 100,
+    "taxa_aprendizado": 0.05,
+    "camadas": 1,
+    "folds": 5,
+    "bias": 0,
+    "tipo": "regressao",
+    "ativacao": "tanh",
+    "metricas": [
+        {
+            "fold": 0,
+            "erro_treinamento": [
+                {
+                    "epoca": 0,
+                    "erros_epoca": 0.10729941068669294
+                },
+                {
+                    "epoca": 1,
+                    "erros_epoca": 0.08092649222253218
+                },
+                {
+                    "epoca": 2,
+                    "erros_epoca": 0.07977902759010654
+                },
+                {
+                    "epoca": 3,
+                    "erros_epoca": 0.0782450026091574
+                },
+                {
+                    "epoca": 4,
+                    "erros_epoca": 0.0770293282755662
+                },
+                {
+                    "epoca": 5,
+                    "erros_epoca": 0.07616628284235347
+                },
+                {
+                    "epoca": 6,
+                    "erros_epoca": 0.07550686744993915
+                },
+                {
+                    "epoca": 7,
+                    "erros_epoca": 0.07495002999697639
+                },
+                {
+                    "epoca": 8,
+                    "erros_epoca": 0.0744422958124748
+                },
+                {
+                    "epoca": 9,
+                    "erros_epoca": 0.07395456275973705
+                },
+                {
+                    "epoca": 10,
+                    "erros_epoca": 0.07346805413330293
+                },
+                {
+                    "epoca": 11,
+                    "erros_epoca": 0.07296799901003505
+                },
+                {
+                    "epoca": 12,
+                    "erros_epoca": 0.0724417790750829
+                },
+                {
+                    "epoca": 13,
+                    "erros_epoca": 0.0718798630469212
+                },
+                {
+                    "epoca": 14,
+                    "erros_epoca": 0.07127933763176351
+                },
+                {
+                    "epoca": 15,
+                    "erros_epoca": 0.07065010800685867
+                },
+                {
+                    "epoca": 16,
+                    "erros_epoca": 0.07002144082277378
+                },
+                {
+                    "epoca": 17,
+                    "erros_epoca": 0.0694413611564521
+                },
+                {
+                    "epoca": 18,
+                    "erros_epoca": 0.0689611052543865
+                },
+                {
+                    "epoca": 19,
+                    "erros_epoca": 0.06861181437173562
+                },
+                {
+                    "epoca": 20,
+                    "erros_epoca": 0.06839421400873343
+                },
+                {
+                    "epoca": 21,
+                    "erros_epoca": 0.06828730651031684
+                },
+                {
+                    "epoca": 22,
+                    "erros_epoca": 0.0682626810428983
+                },
+                {
+                    "epoca": 23,
+                    "erros_epoca": 0.06829390541754764
+                },
+                {
+                    "epoca": 24,
+                    "erros_epoca": 0.06836012623839816
+                },
+                {
+                    "epoca": 25,
+                    "erros_epoca": 0.06844634159728609
+                },
+                {
+                    "epoca": 26,
+                    "erros_epoca": 0.06854236560849793
+                },
+                {
+                    "epoca": 27,
+                    "erros_epoca": 0.06864155100114934
+                },
+                {
+                    "epoca": 28,
+                    "erros_epoca": 0.0687396939781954
+                },
+                {
+                    "epoca": 29,
+                    "erros_epoca": 0.06883422005794455
+                },
+                {
+                    "epoca": 30,
+                    "erros_epoca": 0.06892362119992212
+                },
+                {
+                    "epoca": 31,
+                    "erros_epoca": 0.06900708204396284
+                },
+                {
+                    "epoca": 32,
+                    "erros_epoca": 0.06908423730116493
+                },
+                {
+                    "epoca": 33,
+                    "erros_epoca": 0.06915501600627309
+                },
+                {
+                    "epoca": 34,
+                    "erros_epoca": 0.06921954154567331
+                },
+                {
+                    "epoca": 35,
+                    "erros_epoca": 0.06927806661134224
+                },
+                {
+                    "epoca": 36,
+                    "erros_epoca": 0.06933092955055414
+                },
+                {
+                    "epoca": 37,
+                    "erros_epoca": 0.06937852363277648
+                },
+                {
+                    "epoca": 38,
+                    "erros_epoca": 0.06942127415858045
+                },
+                {
+                    "epoca": 39,
+                    "erros_epoca": 0.06945962055720609
+                },
+                {
+                    "epoca": 40,
+                    "erros_epoca": 0.06949400199741912
+                },
+                {
+                    "epoca": 41,
+                    "erros_epoca": 0.06952484582206797
+                },
+                {
+                    "epoca": 42,
+                    "erros_epoca": 0.06955255850442332
+                },
+                {
+                    "epoca": 43,
+                    "erros_epoca": 0.06957751896420393
+                },
+                {
+                    "epoca": 44,
+                    "erros_epoca": 0.06960007408545682
+                },
+                {
+                    "epoca": 45,
+                    "erros_epoca": 0.06962053622549515
+                },
+                {
+                    "epoca": 46,
+                    "erros_epoca": 0.06963918244307336
+                },
+                {
+                    "epoca": 47,
+                    "erros_epoca": 0.06965625513095645
+                },
+                {
+                    "epoca": 48,
+                    "erros_epoca": 0.06967196372260126
+                },
+                {
+                    "epoca": 49,
+                    "erros_epoca": 0.06968648715400065
+                },
+                {
+                    "epoca": 50,
+                    "erros_epoca": 0.06969997679371112
+                },
+                {
+                    "epoca": 51,
+                    "erros_epoca": 0.06971255959874086
+                },
+                {
+                    "epoca": 52,
+                    "erros_epoca": 0.06972434130389184
+                },
+                {
+                    "epoca": 53,
+                    "erros_epoca": 0.06973540950141155
+                },
+                {
+                    "epoca": 54,
+                    "erros_epoca": 0.06974583651246671
+                },
+                {
+                    "epoca": 55,
+                    "erros_epoca": 0.06975568198980532
+                },
+                {
+                    "epoca": 56,
+                    "erros_epoca": 0.06976499522123249
+                },
+                {
+                    "epoca": 57,
+                    "erros_epoca": 0.06977381712640639
+                },
+                {
+                    "epoca": 58,
+                    "erros_epoca": 0.06978218195573441
+                },
+                {
+                    "epoca": 59,
+                    "erros_epoca": 0.06979011871092335
+                },
+                {
+                    "epoca": 60,
+                    "erros_epoca": 0.06979765231312196
+                },
+                {
+                    "epoca": 61,
+                    "erros_epoca": 0.06980480454768671
+                },
+                {
+                    "epoca": 62,
+                    "erros_epoca": 0.06981159481531861
+                },
+                {
+                    "epoca": 63,
+                    "erros_epoca": 0.06981804071841716
+                },
+                {
+                    "epoca": 64,
+                    "erros_epoca": 0.06982415850958311
+                },
+                {
+                    "epoca": 65,
+                    "erros_epoca": 0.069829963426694
+                },
+                {
+                    "epoca": 66,
+                    "erros_epoca": 0.06983546993620857
+                },
+                {
+                    "epoca": 67,
+                    "erros_epoca": 0.06984069190354027
+                },
+                {
+                    "epoca": 68,
+                    "erros_epoca": 0.06984564270661862
+                },
+                {
+                    "epoca": 69,
+                    "erros_epoca": 0.0698503353062094
+                },
+                {
+                    "epoca": 70,
+                    "erros_epoca": 0.06985478228425497
+                },
+                {
+                    "epoca": 71,
+                    "erros_epoca": 0.06985899585942469
+                },
+                {
+                    "epoca": 72,
+                    "erros_epoca": 0.06986298788726379
+                },
+                {
+                    "epoca": 73,
+                    "erros_epoca": 0.069866769850746
+                },
+                {
+                    "epoca": 74,
+                    "erros_epoca": 0.0698703528457145
+                },
+                {
+                    "epoca": 75,
+                    "erros_epoca": 0.06987374756456009
+                },
+                {
+                    "epoca": 76,
+                    "erros_epoca": 0.06987696428056095
+                },
+                {
+                    "epoca": 77,
+                    "erros_epoca": 0.0698800128345358
+                },
+                {
+                    "epoca": 78,
+                    "erros_epoca": 0.06988290262486933
+                },
+                {
+                    "epoca": 79,
+                    "erros_epoca": 0.06988564260146642
+                },
+                {
+                    "epoca": 80,
+                    "erros_epoca": 0.06988824126384495
+                },
+                {
+                    "epoca": 81,
+                    "erros_epoca": 0.06989070666328923
+                },
+                {
+                    "epoca": 82,
+                    "erros_epoca": 0.06989304640879858
+                },
+                {
+                    "epoca": 83,
+                    "erros_epoca": 0.06989526767643882
+                },
+                {
+                    "epoca": 84,
+                    "erros_epoca": 0.06989737722161989
+                },
+                {
+                    "epoca": 85,
+                    "erros_epoca": 0.06989938139379485
+                },
+                {
+                    "epoca": 86,
+                    "erros_epoca": 0.0699012861530676
+                },
+                {
+                    "epoca": 87,
+                    "erros_epoca": 0.06990309708821286
+                },
+                {
+                    "epoca": 88,
+                    "erros_epoca": 0.06990481943565105
+                },
+                {
+                    "epoca": 89,
+                    "erros_epoca": 0.0699064580989644
+                },
+                {
+                    "epoca": 90,
+                    "erros_epoca": 0.06990801766858755
+                },
+                {
+                    "epoca": 91,
+                    "erros_epoca": 0.06990950244136762
+                },
+                {
+                    "epoca": 92,
+                    "erros_epoca": 0.06991091643973432
+                },
+                {
+                    "epoca": 93,
+                    "erros_epoca": 0.06991226343027494
+                },
+                {
+                    "epoca": 94,
+                    "erros_epoca": 0.06991354694155794
+                },
+                {
+                    "epoca": 95,
+                    "erros_epoca": 0.06991477028108616
+                },
+                {
+                    "epoca": 96,
+                    "erros_epoca": 0.06991593655130575
+                },
+                {
+                    "epoca": 97,
+                    "erros_epoca": 0.0699170486646202
+                },
+                {
+                    "epoca": 98,
+                    "erros_epoca": 0.06991810935739623
+                },
+                {
+                    "epoca": 99,
+                    "erros_epoca": 0.06991912120296075
+                }
+            ],
+            "metrica_previsao": 0.010834618284051967
+        },
+        {
+            "fold": 1,
+            "erro_treinamento": [
+                {
+                    "epoca": 0,
+                    "erros_epoca": 0.10184591926622794
+                },
+                {
+                    "epoca": 1,
+                    "erros_epoca": 0.089987981756311
+                },
+                {
+                    "epoca": 2,
+                    "erros_epoca": 0.08565892138879894
+                },
+                {
+                    "epoca": 3,
+                    "erros_epoca": 0.08295980642415195
+                },
+                {
+                    "epoca": 4,
+                    "erros_epoca": 0.0816194570340575
+                },
+                {
+                    "epoca": 5,
+                    "erros_epoca": 0.08081304583709355
+                },
+                {
+                    "epoca": 6,
+                    "erros_epoca": 0.0801836474636624
+                },
+                {
+                    "epoca": 7,
+                    "erros_epoca": 0.0796138270073938
+                },
+                {
+                    "epoca": 8,
+                    "erros_epoca": 0.07905343958108173
+                },
+                {
+                    "epoca": 9,
+                    "erros_epoca": 0.07847252620201571
+                },
+                {
+                    "epoca": 10,
+                    "erros_epoca": 0.07784878441196118
+                },
+                {
+                    "epoca": 11,
+                    "erros_epoca": 0.07716449520983029
+                },
+                {
+                    "epoca": 12,
+                    "erros_epoca": 0.07640779726782379
+                },
+                {
+                    "epoca": 13,
+                    "erros_epoca": 0.07557786683542402
+                },
+                {
+                    "epoca": 14,
+                    "erros_epoca": 0.07469386866578151
+                },
+                {
+                    "epoca": 15,
+                    "erros_epoca": 0.07380398070012524
+                },
+                {
+                    "epoca": 16,
+                    "erros_epoca": 0.07298317911628534
+                },
+                {
+                    "epoca": 17,
+                    "erros_epoca": 0.07230676930699896
+                },
+                {
+                    "epoca": 18,
+                    "erros_epoca": 0.07180962875738289
+                },
+                {
+                    "epoca": 19,
+                    "erros_epoca": 0.07147047161693285
+                },
+                {
+                    "epoca": 20,
+                    "erros_epoca": 0.07123774715788371
+                },
+                {
+                    "epoca": 21,
+                    "erros_epoca": 0.07106398445348816
+                },
+                {
+                    "epoca": 22,
+                    "erros_epoca": 0.07091903639094971
+                },
+                {
+                    "epoca": 23,
+                    "erros_epoca": 0.07078633877896964
+                },
+                {
+                    "epoca": 24,
+                    "erros_epoca": 0.07065579684790614
+                },
+                {
+                    "epoca": 25,
+                    "erros_epoca": 0.07051911109620278
+                },
+                {
+                    "epoca": 26,
+                    "erros_epoca": 0.07036753268633612
+                },
+                {
+                    "epoca": 27,
+                    "erros_epoca": 0.07019081071407952
+                },
+                {
+                    "epoca": 28,
+                    "erros_epoca": 0.06997652876224217
+                },
+                {
+                    "epoca": 29,
+                    "erros_epoca": 0.06970965077235246
+                },
+                {
+                    "epoca": 30,
+                    "erros_epoca": 0.06937282163781203
+                },
+                {
+                    "epoca": 31,
+                    "erros_epoca": 0.06894928856396194
+                },
+                {
+                    "epoca": 32,
+                    "erros_epoca": 0.06843274096054638
+                },
+                {
+                    "epoca": 33,
+                    "erros_epoca": 0.06784968743136284
+                },
+                {
+                    "epoca": 34,
+                    "erros_epoca": 0.06728594371288796
+                },
+                {
+                    "epoca": 35,
+                    "erros_epoca": 0.06686449674868103
+                },
+                {
+                    "epoca": 36,
+                    "erros_epoca": 0.06664667047643752
+                },
+                {
+                    "epoca": 37,
+                    "erros_epoca": 0.06659597482835813
+                },
+                {
+                    "epoca": 38,
+                    "erros_epoca": 0.06665102595937715
+                },
+                {
+                    "epoca": 39,
+                    "erros_epoca": 0.06676362699568435
+                },
+                {
+                    "epoca": 40,
+                    "erros_epoca": 0.06689793302047818
+                },
+                {
+                    "epoca": 41,
+                    "erros_epoca": 0.06703152376769227
+                },
+                {
+                    "epoca": 42,
+                    "erros_epoca": 0.0671546488846737
+                },
+                {
+                    "epoca": 43,
+                    "erros_epoca": 0.06726573781204723
+                },
+                {
+                    "epoca": 44,
+                    "erros_epoca": 0.06736683791748445
+                },
+                {
+                    "epoca": 45,
+                    "erros_epoca": 0.06746078215297904
+                },
+                {
+                    "epoca": 46,
+                    "erros_epoca": 0.06754994106932054
+                },
+                {
+                    "epoca": 47,
+                    "erros_epoca": 0.06763590169692882
+                },
+                {
+                    "epoca": 48,
+                    "erros_epoca": 0.06771955149468213
+                },
+                {
+                    "epoca": 49,
+                    "erros_epoca": 0.06780127879693393
+                },
+                {
+                    "epoca": 50,
+                    "erros_epoca": 0.06788116470815271
+                },
+                {
+                    "epoca": 51,
+                    "erros_epoca": 0.06795912762605
+                },
+                {
+                    "epoca": 52,
+                    "erros_epoca": 0.06803501866464623
+                },
+                {
+                    "epoca": 53,
+                    "erros_epoca": 0.06810867842256096
+                },
+                {
+                    "epoca": 54,
+                    "erros_epoca": 0.06817996705825358
+                },
+                {
+                    "epoca": 55,
+                    "erros_epoca": 0.06824877749474705
+                },
+                {
+                    "epoca": 56,
+                    "erros_epoca": 0.0683150387676904
+                },
+                {
+                    "epoca": 57,
+                    "erros_epoca": 0.0683787141167731
+                },
+                {
+                    "epoca": 58,
+                    "erros_epoca": 0.068439796645382
+                },
+                {
+                    "epoca": 59,
+                    "erros_epoca": 0.06849830417763401
+                },
+                {
+                    "epoca": 60,
+                    "erros_epoca": 0.06855427418501378
+                },
+                {
+                    "epoca": 61,
+                    "erros_epoca": 0.06860775920033207
+                },
+                {
+                    "epoca": 62,
+                    "erros_epoca": 0.06865882287773552
+                },
+                {
+                    "epoca": 63,
+                    "erros_epoca": 0.0687075367188569
+                },
+                {
+                    "epoca": 64,
+                    "erros_epoca": 0.06875397741739109
+                },
+                {
+                    "epoca": 65,
+                    "erros_epoca": 0.06879822474646316
+                },
+                {
+                    "epoca": 66,
+                    "erros_epoca": 0.06884035990649456
+                },
+                {
+                    "epoca": 67,
+                    "erros_epoca": 0.06888046425514252
+                },
+                {
+                    "epoca": 68,
+                    "erros_epoca": 0.06891861834929808
+                },
+                {
+                    "epoca": 69,
+                    "erros_epoca": 0.06895490123891994
+                },
+                {
+                    "epoca": 70,
+                    "erros_epoca": 0.06898938996206812
+                },
+                {
+                    "epoca": 71,
+                    "erros_epoca": 0.06902215919919637
+                },
+                {
+                    "epoca": 72,
+                    "erros_epoca": 0.06905328105230685
+                },
+                {
+                    "epoca": 73,
+                    "erros_epoca": 0.06908282492097169
+                },
+                {
+                    "epoca": 74,
+                    "erros_epoca": 0.06911085745256954
+                },
+                {
+                    "epoca": 75,
+                    "erros_epoca": 0.06913744254850071
+                },
+                {
+                    "epoca": 76,
+                    "erros_epoca": 0.06916264141176992
+                },
+                {
+                    "epoca": 77,
+                    "erros_epoca": 0.06918651262429949
+                },
+                {
+                    "epoca": 78,
+                    "erros_epoca": 0.06920911224474607
+                },
+                {
+                    "epoca": 79,
+                    "erros_epoca": 0.06923049391956847
+                },
+                {
+                    "epoca": 80,
+                    "erros_epoca": 0.06925070900168258
+                },
+                {
+                    "epoca": 81,
+                    "erros_epoca": 0.06926980667233475
+                },
+                {
+                    "epoca": 82,
+                    "erros_epoca": 0.06928783406286117
+                },
+                {
+                    "epoca": 83,
+                    "erros_epoca": 0.06930483637384688
+                },
+                {
+                    "epoca": 84,
+                    "erros_epoca": 0.06932085698986169
+                },
+                {
+                    "epoca": 85,
+                    "erros_epoca": 0.06933593758849614
+                },
+                {
+                    "epoca": 86,
+                    "erros_epoca": 0.06935011824284606
+                },
+                {
+                    "epoca": 87,
+                    "erros_epoca": 0.06936343751693058
+                },
+                {
+                    "epoca": 88,
+                    "erros_epoca": 0.06937593255380382
+                },
+                {
+                    "epoca": 89,
+                    "erros_epoca": 0.06938763915631697
+                },
+                {
+                    "epoca": 90,
+                    "erros_epoca": 0.06939859186065983
+                },
+                {
+                    "epoca": 91,
+                    "erros_epoca": 0.06940882400292436
+                },
+                {
+                    "epoca": 92,
+                    "erros_epoca": 0.06941836777902367
+                },
+                {
+                    "epoca": 93,
+                    "erros_epoca": 0.06942725429837178
+                },
+                {
+                    "epoca": 94,
+                    "erros_epoca": 0.06943551363176292
+                },
+                {
+                    "epoca": 95,
+                    "erros_epoca": 0.0694431748539234
+                },
+                {
+                    "epoca": 96,
+                    "erros_epoca": 0.06945026608122101
+                },
+                {
+                    "epoca": 97,
+                    "erros_epoca": 0.06945681450501813
+                },
+                {
+                    "epoca": 98,
+                    "erros_epoca": 0.06946284642114726
+                },
+                {
+                    "epoca": 99,
+                    "erros_epoca": 0.06946838725597893
+                }
+            ],
+            "metrica_previsao": 0.01706234082454839
+        },
+        {
+            "fold": 2,
+            "erro_treinamento": [
+                {
+                    "epoca": 0,
+                    "erros_epoca": 0.10434770961598762
+                },
+                {
+                    "epoca": 1,
+                    "erros_epoca": 0.08399009764014441
+                },
+                {
+                    "epoca": 2,
+                    "erros_epoca": 0.0815088322583253
+                },
+                {
+                    "epoca": 3,
+                    "erros_epoca": 0.08047240055936754
+                },
+                {
+                    "epoca": 4,
+                    "erros_epoca": 0.07982994161844068
+                },
+                {
+                    "epoca": 5,
+                    "erros_epoca": 0.07937687656946374
+                },
+                {
+                    "epoca": 6,
+                    "erros_epoca": 0.07904289670610547
+                },
+                {
+                    "epoca": 7,
+                    "erros_epoca": 0.0787913641537535
+                },
+                {
+                    "epoca": 8,
+                    "erros_epoca": 0.078599014979731
+                },
+                {
+                    "epoca": 9,
+                    "erros_epoca": 0.0784498735636901
+                },
+                {
+                    "epoca": 10,
+                    "erros_epoca": 0.07833264959703394
+                },
+                {
+                    "epoca": 11,
+                    "erros_epoca": 0.0782392102824598
+                },
+                {
+                    "epoca": 12,
+                    "erros_epoca": 0.07816354846110349
+                },
+                {
+                    "epoca": 13,
+                    "erros_epoca": 0.07810108106757005
+                },
+                {
+                    "epoca": 14,
+                    "erros_epoca": 0.0780481854809686
+                },
+                {
+                    "epoca": 15,
+                    "erros_epoca": 0.07800190163988345
+                },
+                {
+                    "epoca": 16,
+                    "erros_epoca": 0.07795974946994255
+                },
+                {
+                    "epoca": 17,
+                    "erros_epoca": 0.07791963398768809
+                },
+                {
+                    "epoca": 18,
+                    "erros_epoca": 0.0778798295917941
+                },
+                {
+                    "epoca": 19,
+                    "erros_epoca": 0.07783904633426779
+                },
+                {
+                    "epoca": 20,
+                    "erros_epoca": 0.07779657594138073
+                },
+                {
+                    "epoca": 21,
+                    "erros_epoca": 0.07775247944818772
+                },
+                {
+                    "epoca": 22,
+                    "erros_epoca": 0.07770770371015726
+                },
+                {
+                    "epoca": 23,
+                    "erros_epoca": 0.07766393809514884
+                },
+                {
+                    "epoca": 24,
+                    "erros_epoca": 0.07762306443131065
+                },
+                {
+                    "epoca": 25,
+                    "erros_epoca": 0.07758634257284058
+                },
+                {
+                    "epoca": 26,
+                    "erros_epoca": 0.07755390941035219
+                },
+                {
+                    "epoca": 27,
+                    "erros_epoca": 0.07752529823230157
+                },
+                {
+                    "epoca": 28,
+                    "erros_epoca": 0.07750116344263307
+                },
+                {
+                    "epoca": 29,
+                    "erros_epoca": 0.07748558576424207
+                },
+                {
+                    "epoca": 30,
+                    "erros_epoca": 0.07748768621578585
+                },
+                {
+                    "epoca": 31,
+                    "erros_epoca": 0.07751833874778029
+                },
+                {
+                    "epoca": 32,
+                    "erros_epoca": 0.07755539357788606
+                },
+                {
+                    "epoca": 33,
+                    "erros_epoca": 0.07736055555054266
+                },
+                {
+                    "epoca": 34,
+                    "erros_epoca": 0.076308740987092
+                },
+                {
+                    "epoca": 35,
+                    "erros_epoca": 0.07446856143040864
+                },
+                {
+                    "epoca": 36,
+                    "erros_epoca": 0.0726473748593037
+                },
+                {
+                    "epoca": 37,
+                    "erros_epoca": 0.0711481111448973
+                },
+                {
+                    "epoca": 38,
+                    "erros_epoca": 0.06995069541932024
+                },
+                {
+                    "epoca": 39,
+                    "erros_epoca": 0.06892876052238658
+                },
+                {
+                    "epoca": 40,
+                    "erros_epoca": 0.06792345289564718
+                },
+                {
+                    "epoca": 41,
+                    "erros_epoca": 0.06681340888992425
+                },
+                {
+                    "epoca": 42,
+                    "erros_epoca": 0.06554629916736826
+                },
+                {
+                    "epoca": 43,
+                    "erros_epoca": 0.06412474455121517
+                },
+                {
+                    "epoca": 44,
+                    "erros_epoca": 0.06255741795544989
+                },
+                {
+                    "epoca": 45,
+                    "erros_epoca": 0.06083144473663722
+                },
+                {
+                    "epoca": 46,
+                    "erros_epoca": 0.05898502794330645
+                },
+                {
+                    "epoca": 47,
+                    "erros_epoca": 0.05720803608576476
+                },
+                {
+                    "epoca": 48,
+                    "erros_epoca": 0.05575844143927051
+                },
+                {
+                    "epoca": 49,
+                    "erros_epoca": 0.05477311275001018
+                },
+                {
+                    "epoca": 50,
+                    "erros_epoca": 0.054232413850406204
+                },
+                {
+                    "epoca": 51,
+                    "erros_epoca": 0.054031673728617176
+                },
+                {
+                    "epoca": 52,
+                    "erros_epoca": 0.054046476057244774
+                },
+                {
+                    "epoca": 53,
+                    "erros_epoca": 0.05417544502473945
+                },
+                {
+                    "epoca": 54,
+                    "erros_epoca": 0.05435308282995769
+                },
+                {
+                    "epoca": 55,
+                    "erros_epoca": 0.05454260274016362
+                },
+                {
+                    "epoca": 56,
+                    "erros_epoca": 0.05472517826136685
+                },
+                {
+                    "epoca": 57,
+                    "erros_epoca": 0.05489220494877415
+                },
+                {
+                    "epoca": 58,
+                    "erros_epoca": 0.05504071990370271
+                },
+                {
+                    "epoca": 59,
+                    "erros_epoca": 0.055170802101480045
+                },
+                {
+                    "epoca": 60,
+                    "erros_epoca": 0.05528407724834052
+                },
+                {
+                    "epoca": 61,
+                    "erros_epoca": 0.05538284579153223
+                },
+                {
+                    "epoca": 62,
+                    "erros_epoca": 0.055469580949898616
+                },
+                {
+                    "epoca": 63,
+                    "erros_epoca": 0.055546654167393884
+                },
+                {
+                    "epoca": 64,
+                    "erros_epoca": 0.0556162002595867
+                },
+                {
+                    "epoca": 65,
+                    "erros_epoca": 0.05568006580056211
+                },
+                {
+                    "epoca": 66,
+                    "erros_epoca": 0.05573980452117905
+                },
+                {
+                    "epoca": 67,
+                    "erros_epoca": 0.05579669715022864
+                },
+                {
+                    "epoca": 68,
+                    "erros_epoca": 0.055851782213621005
+                },
+                {
+                    "epoca": 69,
+                    "erros_epoca": 0.055905890120980954
+                },
+                {
+                    "epoca": 70,
+                    "erros_epoca": 0.05595967643890132
+                },
+                {
+                    "epoca": 71,
+                    "erros_epoca": 0.056013652357030506
+                },
+                {
+                    "epoca": 72,
+                    "erros_epoca": 0.05606821154981984
+                },
+                {
+                    "epoca": 73,
+                    "erros_epoca": 0.056123653288035
+                },
+                {
+                    "epoca": 74,
+                    "erros_epoca": 0.056180201988391874
+                },
+                {
+                    "epoca": 75,
+                    "erros_epoca": 0.05623802354432911
+                },
+                {
+                    "epoca": 76,
+                    "erros_epoca": 0.05629723883630321
+                },
+                {
+                    "epoca": 77,
+                    "erros_epoca": 0.05635793482223105
+                },
+                {
+                    "epoca": 78,
+                    "erros_epoca": 0.05642017358390641
+                },
+                {
+                    "epoca": 79,
+                    "erros_epoca": 0.05648399966805364
+                },
+                {
+                    "epoca": 80,
+                    "erros_epoca": 0.05654944601926005
+                },
+                {
+                    "epoca": 81,
+                    "erros_epoca": 0.056616538760778115
+                },
+                {
+                    "epoca": 82,
+                    "erros_epoca": 0.056685301040369264
+                },
+                {
+                    "epoca": 83,
+                    "erros_epoca": 0.05675575612302178
+                },
+                {
+                    "epoca": 84,
+                    "erros_epoca": 0.05682792988084298
+                },
+                {
+                    "epoca": 85,
+                    "erros_epoca": 0.05690185280259694
+                },
+                {
+                    "epoca": 86,
+                    "erros_epoca": 0.05697756162089405
+                },
+                {
+                    "epoca": 87,
+                    "erros_epoca": 0.05705510063349145
+                },
+                {
+                    "epoca": 88,
+                    "erros_epoca": 0.05713452277598776
+                },
+                {
+                    "epoca": 89,
+                    "erros_epoca": 0.05721589048589788
+                },
+                {
+                    "epoca": 90,
+                    "erros_epoca": 0.05729927638219568
+                },
+                {
+                    "epoca": 91,
+                    "erros_epoca": 0.05738476376952502
+                },
+                {
+                    "epoca": 92,
+                    "erros_epoca": 0.057472446962204105
+                },
+                {
+                    "epoca": 93,
+                    "erros_epoca": 0.05756243140988841
+                },
+                {
+                    "epoca": 94,
+                    "erros_epoca": 0.05765483359468322
+                },
+                {
+                    "epoca": 95,
+                    "erros_epoca": 0.0577497806594058
+                },
+                {
+                    "epoca": 96,
+                    "erros_epoca": 0.05784740972002099
+                },
+                {
+                    "epoca": 97,
+                    "erros_epoca": 0.05794786681403234
+                },
+                {
+                    "epoca": 98,
+                    "erros_epoca": 0.05805130544353785
+                },
+                {
+                    "epoca": 99,
+                    "erros_epoca": 0.05815788468976871
+                }
+            ],
+            "metrica_previsao": 0.014692877261920501
+        },
+        {
+            "fold": 3,
+            "erro_treinamento": [
+                {
+                    "epoca": 0,
+                    "erros_epoca": 0.09447362096929693
+                },
+                {
+                    "epoca": 1,
+                    "erros_epoca": 0.07959388346783933
+                },
+                {
+                    "epoca": 2,
+                    "erros_epoca": 0.07798750706783297
+                },
+                {
+                    "epoca": 3,
+                    "erros_epoca": 0.0774558173161077
+                },
+                {
+                    "epoca": 4,
+                    "erros_epoca": 0.07719541019436421
+                },
+                {
+                    "epoca": 5,
+                    "erros_epoca": 0.07704467193743787
+                },
+                {
+                    "epoca": 6,
+                    "erros_epoca": 0.07694775937643925
+                },
+                {
+                    "epoca": 7,
+                    "erros_epoca": 0.07687809460740705
+                },
+                {
+                    "epoca": 8,
+                    "erros_epoca": 0.07682079252681205
+                },
+                {
+                    "epoca": 9,
+                    "erros_epoca": 0.07676680039834853
+                },
+                {
+                    "epoca": 10,
+                    "erros_epoca": 0.07671066870849623
+                },
+                {
+                    "epoca": 11,
+                    "erros_epoca": 0.07664989016080816
+                },
+                {
+                    "epoca": 12,
+                    "erros_epoca": 0.07658491450401876
+                },
+                {
+                    "epoca": 13,
+                    "erros_epoca": 0.07651900396207896
+                },
+                {
+                    "epoca": 14,
+                    "erros_epoca": 0.07645713743618397
+                },
+                {
+                    "epoca": 15,
+                    "erros_epoca": 0.07640393997713056
+                },
+                {
+                    "epoca": 16,
+                    "erros_epoca": 0.07636178460307537
+                },
+                {
+                    "epoca": 17,
+                    "erros_epoca": 0.07633033333584678
+                },
+                {
+                    "epoca": 18,
+                    "erros_epoca": 0.07630751016241615
+                },
+                {
+                    "epoca": 19,
+                    "erros_epoca": 0.07629084323292055
+                },
+                {
+                    "epoca": 20,
+                    "erros_epoca": 0.07627831199477603
+                },
+                {
+                    "epoca": 21,
+                    "erros_epoca": 0.0762685717118729
+                },
+                {
+                    "epoca": 22,
+                    "erros_epoca": 0.07626082972762876
+                },
+                {
+                    "epoca": 23,
+                    "erros_epoca": 0.07625463936677844
+                },
+                {
+                    "epoca": 24,
+                    "erros_epoca": 0.07624973662821717
+                },
+                {
+                    "epoca": 25,
+                    "erros_epoca": 0.0762459427074896
+                },
+                {
+                    "epoca": 26,
+                    "erros_epoca": 0.07624311576506602
+                },
+                {
+                    "epoca": 27,
+                    "erros_epoca": 0.07624113076705075
+                },
+                {
+                    "epoca": 28,
+                    "erros_epoca": 0.07623987265041138
+                },
+                {
+                    "epoca": 29,
+                    "erros_epoca": 0.07623923475355739
+                },
+                {
+                    "epoca": 30,
+                    "erros_epoca": 0.07623911878418978
+                },
+                {
+                    "epoca": 31,
+                    "erros_epoca": 0.07623943488328729
+                },
+                {
+                    "epoca": 32,
+                    "erros_epoca": 0.07624010138888565
+                },
+                {
+                    "epoca": 33,
+                    "erros_epoca": 0.07624104430509772
+                },
+                {
+                    "epoca": 34,
+                    "erros_epoca": 0.07624219658941996
+                },
+                {
+                    "epoca": 35,
+                    "erros_epoca": 0.07624349736562995
+                },
+                {
+                    "epoca": 36,
+                    "erros_epoca": 0.07624489113415892
+                },
+                {
+                    "epoca": 37,
+                    "erros_epoca": 0.07624632701896993
+                },
+                {
+                    "epoca": 38,
+                    "erros_epoca": 0.07624775806769414
+                },
+                {
+                    "epoca": 39,
+                    "erros_epoca": 0.07624914060894979
+                },
+                {
+                    "epoca": 40,
+                    "erros_epoca": 0.07625043366417895
+                },
+                {
+                    "epoca": 41,
+                    "erros_epoca": 0.07625159840827585
+                },
+                {
+                    "epoca": 42,
+                    "erros_epoca": 0.0762525976720236
+                },
+                {
+                    "epoca": 43,
+                    "erros_epoca": 0.07625339547893915
+                },
+                {
+                    "epoca": 44,
+                    "erros_epoca": 0.07625395660907701
+                },
+                {
+                    "epoca": 45,
+                    "erros_epoca": 0.07625424618241942
+                },
+                {
+                    "epoca": 46,
+                    "erros_epoca": 0.07625422925455128
+                },
+                {
+                    "epoca": 47,
+                    "erros_epoca": 0.07625387041731668
+                },
+                {
+                    "epoca": 48,
+                    "erros_epoca": 0.07625313339705785
+                },
+                {
+                    "epoca": 49,
+                    "erros_epoca": 0.07625198064275708
+                },
+                {
+                    "epoca": 50,
+                    "erros_epoca": 0.0762503728959653
+                },
+                {
+                    "epoca": 51,
+                    "erros_epoca": 0.07624826873372782
+                },
+                {
+                    "epoca": 52,
+                    "erros_epoca": 0.07624562407477363
+                },
+                {
+                    "epoca": 53,
+                    "erros_epoca": 0.07624239163797172
+                },
+                {
+                    "epoca": 54,
+                    "erros_epoca": 0.0762385203404013
+                },
+                {
+                    "epoca": 55,
+                    "erros_epoca": 0.07623395462023319
+                },
+                {
+                    "epoca": 56,
+                    "erros_epoca": 0.07622863366686071
+                },
+                {
+                    "epoca": 57,
+                    "erros_epoca": 0.07622249053720004
+                },
+                {
+                    "epoca": 58,
+                    "erros_epoca": 0.07621545113256532
+                },
+                {
+                    "epoca": 59,
+                    "erros_epoca": 0.07620743300476926
+                },
+                {
+                    "epoca": 60,
+                    "erros_epoca": 0.07619834395268277
+                },
+                {
+                    "epoca": 61,
+                    "erros_epoca": 0.07618808036095956
+                },
+                {
+                    "epoca": 62,
+                    "erros_epoca": 0.07617652522023752
+                },
+                {
+                    "epoca": 63,
+                    "erros_epoca": 0.07616354575200605
+                },
+                {
+                    "epoca": 64,
+                    "erros_epoca": 0.07614899054012421
+                },
+                {
+                    "epoca": 65,
+                    "erros_epoca": 0.07613268604294628
+                },
+                {
+                    "epoca": 66,
+                    "erros_epoca": 0.07611443232264495
+                },
+                {
+                    "epoca": 67,
+                    "erros_epoca": 0.07609399777810795
+                },
+                {
+                    "epoca": 68,
+                    "erros_epoca": 0.07607111259975229
+                },
+                {
+                    "epoca": 69,
+                    "erros_epoca": 0.07604546057163601
+                },
+                {
+                    "epoca": 70,
+                    "erros_epoca": 0.07601666871818845
+                },
+                {
+                    "epoca": 71,
+                    "erros_epoca": 0.07598429411512171
+                },
+                {
+                    "epoca": 72,
+                    "erros_epoca": 0.07594780693575623
+                },
+                {
+                    "epoca": 73,
+                    "erros_epoca": 0.0759065684556588
+                },
+                {
+                    "epoca": 74,
+                    "erros_epoca": 0.07585980224990276
+                },
+                {
+                    "epoca": 75,
+                    "erros_epoca": 0.0758065561372582
+                },
+                {
+                    "epoca": 76,
+                    "erros_epoca": 0.07574565150044024
+                },
+                {
+                    "epoca": 77,
+                    "erros_epoca": 0.07567561541999783
+                },
+                {
+                    "epoca": 78,
+                    "erros_epoca": 0.07559458972638151
+                },
+                {
+                    "epoca": 79,
+                    "erros_epoca": 0.07550021020369219
+                },
+                {
+                    "epoca": 80,
+                    "erros_epoca": 0.0753894507849576
+                },
+                {
+                    "epoca": 81,
+                    "erros_epoca": 0.07525843761632728
+                },
+                {
+                    "epoca": 82,
+                    "erros_epoca": 0.07510227272558126
+                },
+                {
+                    "epoca": 83,
+                    "erros_epoca": 0.07491500832469802
+                },
+                {
+                    "epoca": 84,
+                    "erros_epoca": 0.07469016991610904
+                },
+                {
+                    "epoca": 85,
+                    "erros_epoca": 0.07442274718309992
+                },
+                {
+                    "epoca": 86,
+                    "erros_epoca": 0.0741140657461861
+                },
+                {
+                    "epoca": 87,
+                    "erros_epoca": 0.07377925090762485
+                },
+                {
+                    "epoca": 88,
+                    "erros_epoca": 0.07344928232447019
+                },
+                {
+                    "epoca": 89,
+                    "erros_epoca": 0.07315515697035446
+                },
+                {
+                    "epoca": 90,
+                    "erros_epoca": 0.07290636999848019
+                },
+                {
+                    "epoca": 91,
+                    "erros_epoca": 0.07269407854513601
+                },
+                {
+                    "epoca": 92,
+                    "erros_epoca": 0.07250871251142729
+                },
+                {
+                    "epoca": 93,
+                    "erros_epoca": 0.07234572669760071
+                },
+                {
+                    "epoca": 94,
+                    "erros_epoca": 0.07220242655752893
+                },
+                {
+                    "epoca": 95,
+                    "erros_epoca": 0.07207569082750138
+                },
+                {
+                    "epoca": 96,
+                    "erros_epoca": 0.07196187879463353
+                },
+                {
+                    "epoca": 97,
+                    "erros_epoca": 0.0718573536978654
+                },
+                {
+                    "epoca": 98,
+                    "erros_epoca": 0.07175883333430061
+                },
+                {
+                    "epoca": 99,
+                    "erros_epoca": 0.07166348310739691
+                }
+            ],
+            "metrica_previsao": 0.017883892538879557
+        },
+        {
+            "fold": 4,
+            "erro_treinamento": [
+                {
+                    "epoca": 0,
+                    "erros_epoca": 0.10391143204746743
+                },
+                {
+                    "epoca": 1,
+                    "erros_epoca": 0.0778753026002252
+                },
+                {
+                    "epoca": 2,
+                    "erros_epoca": 0.07658376578703563
+                },
+                {
+                    "epoca": 3,
+                    "erros_epoca": 0.07631511965900498
+                },
+                {
+                    "epoca": 4,
+                    "erros_epoca": 0.07623197052448775
+                },
+                {
+                    "epoca": 5,
+                    "erros_epoca": 0.07622384335079137
+                },
+                {
+                    "epoca": 6,
+                    "erros_epoca": 0.07624084704398165
+                },
+                {
+                    "epoca": 7,
+                    "erros_epoca": 0.07624960154676992
+                },
+                {
+                    "epoca": 8,
+                    "erros_epoca": 0.07621697506993677
+                },
+                {
+                    "epoca": 9,
+                    "erros_epoca": 0.07611586307267613
+                },
+                {
+                    "epoca": 10,
+                    "erros_epoca": 0.07595598829628059
+                },
+                {
+                    "epoca": 11,
+                    "erros_epoca": 0.0757854274521653
+                },
+                {
+                    "epoca": 12,
+                    "erros_epoca": 0.07563335174687832
+                },
+                {
+                    "epoca": 13,
+                    "erros_epoca": 0.07549602424511562
+                },
+                {
+                    "epoca": 14,
+                    "erros_epoca": 0.07536670319436883
+                },
+                {
+                    "epoca": 15,
+                    "erros_epoca": 0.07524458404757306
+                },
+                {
+                    "epoca": 16,
+                    "erros_epoca": 0.0751310438579959
+                },
+                {
+                    "epoca": 17,
+                    "erros_epoca": 0.07502721980009194
+                },
+                {
+                    "epoca": 18,
+                    "erros_epoca": 0.07493351443022099
+                },
+                {
+                    "epoca": 19,
+                    "erros_epoca": 0.07484973723165608
+                },
+                {
+                    "epoca": 20,
+                    "erros_epoca": 0.07477533464467603
+                },
+                {
+                    "epoca": 21,
+                    "erros_epoca": 0.07470956974448226
+                },
+                {
+                    "epoca": 22,
+                    "erros_epoca": 0.07465163908861848
+                },
+                {
+                    "epoca": 23,
+                    "erros_epoca": 0.07460074200922442
+                },
+                {
+                    "epoca": 24,
+                    "erros_epoca": 0.07455611855660496
+                },
+                {
+                    "epoca": 25,
+                    "erros_epoca": 0.07451706801340387
+                },
+                {
+                    "epoca": 26,
+                    "erros_epoca": 0.07448295584154299
+                },
+                {
+                    "epoca": 27,
+                    "erros_epoca": 0.07445321401502081
+                },
+                {
+                    "epoca": 28,
+                    "erros_epoca": 0.07442733778017334
+                },
+                {
+                    "epoca": 29,
+                    "erros_epoca": 0.07440488067337012
+                },
+                {
+                    "epoca": 30,
+                    "erros_epoca": 0.0743854488719629
+                },
+                {
+                    "epoca": 31,
+                    "erros_epoca": 0.07436869549056742
+                },
+                {
+                    "epoca": 32,
+                    "erros_epoca": 0.0743543151529121
+                },
+                {
+                    "epoca": 33,
+                    "erros_epoca": 0.07434203900057705
+                },
+                {
+                    "epoca": 34,
+                    "erros_epoca": 0.07433163020078264
+                },
+                {
+                    "epoca": 35,
+                    "erros_epoca": 0.07432287995894381
+                },
+                {
+                    "epoca": 36,
+                    "erros_epoca": 0.07431560401123459
+                },
+                {
+                    "epoca": 37,
+                    "erros_epoca": 0.0743096395575252
+                },
+                {
+                    "epoca": 38,
+                    "erros_epoca": 0.07430484258931273
+                },
+                {
+                    "epoca": 39,
+                    "erros_epoca": 0.07430108556676059
+                },
+                {
+                    "epoca": 40,
+                    "erros_epoca": 0.07429825540126993
+                },
+                {
+                    "epoca": 41,
+                    "erros_epoca": 0.07429625170369522
+                },
+                {
+                    "epoca": 42,
+                    "erros_epoca": 0.07429498526253626
+                },
+                {
+                    "epoca": 43,
+                    "erros_epoca": 0.07429437672069261
+                },
+                {
+                    "epoca": 44,
+                    "erros_epoca": 0.07429435542341599
+                },
+                {
+                    "epoca": 45,
+                    "erros_epoca": 0.07429485841377749
+                },
+                {
+                    "epoca": 46,
+                    "erros_epoca": 0.07429582955527524
+                },
+                {
+                    "epoca": 47,
+                    "erros_epoca": 0.07429721876409077
+                },
+                {
+                    "epoca": 48,
+                    "erros_epoca": 0.07429898133603546
+                },
+                {
+                    "epoca": 49,
+                    "erros_epoca": 0.07430107735539665
+                },
+                {
+                    "epoca": 50,
+                    "erros_epoca": 0.07430347117476443
+                },
+                {
+                    "epoca": 51,
+                    "erros_epoca": 0.07430613095653614
+                },
+                {
+                    "epoca": 52,
+                    "erros_epoca": 0.0743090282681637
+                },
+                {
+                    "epoca": 53,
+                    "erros_epoca": 0.0743121377244043
+                },
+                {
+                    "epoca": 54,
+                    "erros_epoca": 0.07431543667085543
+                },
+                {
+                    "epoca": 55,
+                    "erros_epoca": 0.07431890490395014
+                },
+                {
+                    "epoca": 56,
+                    "erros_epoca": 0.07432252442336802
+                },
+                {
+                    "epoca": 57,
+                    "erros_epoca": 0.07432627921352285
+                },
+                {
+                    "epoca": 58,
+                    "erros_epoca": 0.07433015505141959
+                },
+                {
+                    "epoca": 59,
+                    "erros_epoca": 0.07433413933876874
+                },
+                {
+                    "epoca": 60,
+                    "erros_epoca": 0.07433822095682542
+                },
+                {
+                    "epoca": 61,
+                    "erros_epoca": 0.07434239014298277
+                },
+                {
+                    "epoca": 62,
+                    "erros_epoca": 0.07434663838876246
+                },
+                {
+                    "epoca": 63,
+                    "erros_epoca": 0.07435095835947779
+                },
+                {
+                    "epoca": 64,
+                    "erros_epoca": 0.07435534383659105
+                },
+                {
+                    "epoca": 65,
+                    "erros_epoca": 0.07435978968462838
+                },
+                {
+                    "epoca": 66,
+                    "erros_epoca": 0.0743642918455477
+                },
+                {
+                    "epoca": 67,
+                    "erros_epoca": 0.07436884736471257
+                },
+                {
+                    "epoca": 68,
+                    "erros_epoca": 0.0743734544541968
+                },
+                {
+                    "epoca": 69,
+                    "erros_epoca": 0.07437811260115008
+                },
+                {
+                    "epoca": 70,
+                    "erros_epoca": 0.07438282273152093
+                },
+                {
+                    "epoca": 71,
+                    "erros_epoca": 0.07438758744276472
+                },
+                {
+                    "epoca": 72,
+                    "erros_epoca": 0.07439241132352321
+                },
+                {
+                    "epoca": 73,
+                    "erros_epoca": 0.07439730138398853
+                },
+                {
+                    "epoca": 74,
+                    "erros_epoca": 0.07440226762826534
+                },
+                {
+                    "epoca": 75,
+                    "erros_epoca": 0.07440732381016701
+                },
+                {
+                    "epoca": 76,
+                    "erros_epoca": 0.0744124884274486
+                },
+                {
+                    "epoca": 77,
+                    "erros_epoca": 0.07441778602777956
+                },
+                {
+                    "epoca": 78,
+                    "erros_epoca": 0.07442324892453392
+                },
+                {
+                    "epoca": 79,
+                    "erros_epoca": 0.07442891945424704
+                },
+                {
+                    "epoca": 80,
+                    "erros_epoca": 0.07443485295374633
+                },
+                {
+                    "epoca": 81,
+                    "erros_epoca": 0.07444112169840696
+                },
+                {
+                    "epoca": 82,
+                    "erros_epoca": 0.07444782013036107
+                },
+                {
+                    "epoca": 83,
+                    "erros_epoca": 0.07445507182608765
+                },
+                {
+                    "epoca": 84,
+                    "erros_epoca": 0.0744630388192243
+                },
+                {
+                    "epoca": 85,
+                    "erros_epoca": 0.07447193412326579
+                },
+                {
+                    "epoca": 86,
+                    "erros_epoca": 0.07448203861100648
+                },
+                {
+                    "epoca": 87,
+                    "erros_epoca": 0.07449372382691366
+                },
+                {
+                    "epoca": 88,
+                    "erros_epoca": 0.07450748285612285
+                },
+                {
+                    "epoca": 89,
+                    "erros_epoca": 0.0745239720520562
+                },
+                {
+                    "epoca": 90,
+                    "erros_epoca": 0.0745440671806429
+                },
+                {
+                    "epoca": 91,
+                    "erros_epoca": 0.07456893818103077
+                },
+                {
+                    "epoca": 92,
+                    "erros_epoca": 0.07460014676962659
+                },
+                {
+                    "epoca": 93,
+                    "erros_epoca": 0.07463976939037323
+                },
+                {
+                    "epoca": 94,
+                    "erros_epoca": 0.07469054221762313
+                },
+                {
+                    "epoca": 95,
+                    "erros_epoca": 0.07475601081627492
+                },
+                {
+                    "epoca": 96,
+                    "erros_epoca": 0.07484063821565737
+                },
+                {
+                    "epoca": 97,
+                    "erros_epoca": 0.07494977525897666
+                },
+                {
+                    "epoca": 98,
+                    "erros_epoca": 0.07508933050871186
+                },
+                {
+                    "epoca": 99,
+                    "erros_epoca": 0.07526493548730323
+                }
+            ],
+            "metrica_previsao": 0.016331697147362715
+        }
+    ]
+}
