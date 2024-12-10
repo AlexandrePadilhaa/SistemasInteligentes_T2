@@ -9,13 +9,13 @@ from utils import load_and_preprocess_data, min_max, split_cross_validation, pre
 
 DATA_FILE = "data/treino_sinais_vitais_com_label.txt"
 N_ESTIMATORS = 10         # Número de árvores 100 é o padrao
-CRITERION = "gini"         # Critério para medir qualidade da divisão ("gini" ou "entropy")
+CRITERION = "entropy"         # Critério para medir qualidade da divisão ("gini" ou "entropy")
 MAX_DEPTH = None           # Profundidade máxima das árvores
 MIN_SAMPLES_SPLIT = 2      # Número mínimo de amostras para dividir um nó
 MIN_SAMPLES_LEAF = 1       # Número mínimo de amostras em cada folha
 MAX_FEATURES = "sqrt"      # Recursos considerados por divisão ("sqrt", "log2", ou um número inteiro)
 BOOTSTRAP = True           # Amostlragem com reposição
-OOB_SCORE = True          # Habilitar validação Out-Of-Bag (se `True`, usa `bootstrap=True`)
+OOB_SCORE = True         # Habilitar validação Out-Of-Bag (se `True`, usa `bootstrap=True`)
 CCP_ALPHA = 0.0            # Complexidade mínima para poda
 RANDOM_STATE = 42          # Semente para reprodutibilidade
 FOLDS = 5                 # Número de folds para validação cruzada

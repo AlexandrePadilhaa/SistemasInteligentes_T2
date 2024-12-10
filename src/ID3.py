@@ -14,13 +14,13 @@ DATA_FILE = "data/treino_sinais_vitais_com_label.txt"
 TIPO = 'classificacao'
 CRITERION = "entropy"      # Critério de divisão baseado em entropia (ID3)
 MAX_DEPTH = None           # Profundidade máxima (None = sem limite)
-MIN_SAMPLES_SPLIT = 2      # Número mínimo de amostras para dividir um nó
+MIN_SAMPLES_SPLIT = 200      # Número mínimo de amostras para dividir um nó
 MAX_FEATURES = "sqrt"      # Define o número máximo de recursos (features) a serem considerados para cada divisão. "sqrt" , "log2",  "1/3 1/4 ..."
-MAX_LEAF_NODES = None         # Limitar o número de folhas
+MAX_LEAF_NODES =None         # Limitar o número de folhas
 SPLITTER = "best"          # Controla como as divisões dos nós são feitas. "best" ou "random"
-CCP_ALPHA = 0.1           # Controla o pruning (poda) da árvore baseado na complexidade de custo. Corta subarvores menos relevantes
+CCP_ALPHA = 0.0           # Controla o pruning (poda) da árvore baseado na complexidade de custo. Corta subarvores menos relevantes
 RANDOM_STATE = 42         
-FOLDS = 10
+FOLDS = 5
 
 SUMMARY_FILE = 'results/id3/summary1.json'
 
@@ -38,10 +38,6 @@ def train_id3_model(x_train, y_train):
     )
     model.fit(x_train, y_train)
     return model
-
-import os
-import json
-import numpy as np
 
 
 
@@ -121,7 +117,7 @@ def cross_validate_id3(df, folds=5):
         #if fold_idx == folds - 1:
             #visualize_decision_tree(model, feature_names=train_fold.columns[:-1], class_names=['1', '2', '3', '4'])
     
-    save_summary(metrics_list)
+    save_summary(metrics_list, SUMMARY_FILE)
 
     return metrics_list
 
