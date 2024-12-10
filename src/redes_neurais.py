@@ -12,10 +12,10 @@ TAXA_APREND = 0.05
 EPOCAS = 100
 BIAS = 0
 NEURONIOS = 3
-N_SAIDA = 4
+N_SAIDA = 1
 TIPO = 'regressao'
 DATA_FILE = "data/treino_sinais_vitais_com_label.txt"
-PATH_JSON = 'results/rn/result_rn_8.json'
+PATH_JSON = 'results/rn/result_rn_27.json'
 AT = 'tanh'
 
 # soma dos pesos * valores
@@ -75,7 +75,7 @@ def ajuste_pesos(rede,deltas,saidas,entrada):
     
         # para cada peso de cada neuronio da camada
         for j, neuronio in enumerate(camadas[i]):
-            for k in range(len(entrada)):
+            for k in range(len(neuronio)):
                 neuronio[k] += TAXA_APREND * deltas[i][j] * entrada[k]
             neuronio[-1] += TAXA_APREND * deltas[i][j]
 
@@ -98,8 +98,9 @@ def back_propagation(rede,saidas,s_esperado,entrada):
             delta_c = []
             for j in range(len(camada)):
                 for k in range(len(deltas[0])):
+                    for p in range(len(camada[j])):
                     # delta anterior * peso de todos os neuronios da camada anterior
-                    delta += deltas[0][k] * camadas[i+1][k][j]
+                        delta += deltas[0][k] * camadas[i+1][k][p]
                 delta_c.append(derivada_ativacao(saidas[i][j]) * delta)
             deltas.insert(0,delta_c)
     
@@ -139,7 +140,7 @@ def acuracia(dados_reais,dados_previstos):
         classe_prevista = np.argmax(dados_previstos[i])
         if classe_prevista + 1 == dados_reais[i]:
             certos += 1
-    return certos/len(dados_previstos) * 100    
+    return certos/len(dados_previstos) * 100
 
 def previsao(rede,df_test,tipo):
     
